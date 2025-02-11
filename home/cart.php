@@ -246,13 +246,6 @@ foreach ($productIds as $productId) {
     } else {
       echo "Error preparing the statement: " . $conn2->error;
     }
-
-    // $query = "DELETE  FROM items WHERE id = ?";
-    // $stmt = $conn2->prepare($query);
-    // if ($stmt) {
-    //   $stmt->bind_param("i", $productId);
-    //   $stmt->execute();
-    // }  
 }
 
 ////////////clear winner///////////////
