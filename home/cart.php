@@ -334,9 +334,6 @@ exit();
 }
 
 ob_end_flush();  ////////////to clear teh buffer for the header sent before 
-  
-    // Close the database connection
-    // $conn2->close();
     ?>
 
     <script>
