@@ -108,8 +108,7 @@ if ($result->num_rows > 0) {
 // $stmt2 = $conn2->prepare($sql2);
 // $stmt2->bind_param("i", $itemId);
 // $stmt2->bind_result($bidAmount);
-// $stmt2->execute();
-// $stmt2->store_result();
+
 
 
 $itemName = $row["itemName"];
